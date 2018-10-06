@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+
+{% extends "basic_app/base.html" %}
+{%block body_block%}
+
+{% load my_extras%}
+
+<h1> Welcome to the Home Page.</h1>
+<h2>  This is index where I have used template inheritance </h2>
+
+<h1>{{text| cut:'World'}} </h1>
+<h1>{{number|add:'899'}}</h1>
+
+{% endblock %}
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+    <div class="jumbotron">
+         <h1> Sign Up here: </h1>
+        <form method="POST">
+            {{ form.as_p }}
+            {% csrf_token%}
+            <input type="submit" class="btn btn-primary" value="Submit">
+
+        </form>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+    <h1> Here are the Users List: </h1>
+    {% if users %}
+
+    <ol>
+
+        {% for person in users%}
+        <li> User: </li>
+            <ul>
+
+                <li> First Name : {{ person.first_name }} </li>
+                <li> Last Name : {{ person.last_name }}</li>
+                <li> Email : {{ person.email }} </li>
+
+            </ul>
+
+        {% endfor %}
+
+
+    </ol>
+
+
+
+    {% endif %}
+
+
+-->
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <title> Django</title>
+    <link rel = "stylesheet" href="{% static "css/mystyle.css" %}">
+
+ </head>
+
+
+
+<body>
+    <div class="jumbotron">
+
+
+
+    <h1> Hi welcome to the Django world</h1>
+
+    <h2> Django is nice but complicated</h2>
+
+
+    <div class = "djangotwo" >
+
+        {% if access_records %}
+        <table>
+            <thead>
+                <th> <!-- for column-->
+                    Site Name
+                </th>
+                <th>
+                    Date Accessed
+                </th>
+            </thead>
+
+
+
+            {% for acc in access_records %}
+
+             <tr>
+                <td>  <!-- row -->
+                    {{ acc.name}}
+
+                </td>
+
+                <td>
+                    {{acc.date}}
+                </td>
+            </tr>
+
+            {% endfor %}
+
+        </table>
+
+
+        {% else %}
+            <p> No Access record found</p>
+
+        {% endif %}
+    </div>
+    </div>
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<!DOCTYPE html>
+{% load staticfiles %}
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Tariq</title>
+    <link rel="stylesheet" href="{% static "css/mystyle.css" %}">
+</head>
+
+
+
+<body>
+    <h1> Hello this is Tariq!</h1>
+    <img src="{% static "images/Tariq.jpg" %}" alt= "No pictures are there" >
+
+</body>
+
+
+</html>
+-->
