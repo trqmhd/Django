@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="344206b5-2c3d-4e44-9342-b64238e6f26a" name="Default Changelist" comment="" />
+    <list default="true" id="344206b5-2c3d-4e44-9342-b64238e6f26a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../project_authentication/basic_app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project_authentication/templates/basic_app/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project_authentication/templates/basic_app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project_authentication/templates/basic_app/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project_authentication/templates/basic_app/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../first_project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_authentication/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_authentication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_authentication/basic_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/basic_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_authentication/basic_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/basic_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_authentication/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_authentication/project_authentication/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/project_authentication/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_authentication/project_authentication/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/project_authentication/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_templates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_templates/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../second_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../second_project/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,11 +29,11 @@
     <session id="-1900434837">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -134,6 +151,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -152,8 +172,9 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="711" />
+    <option name="height" value="712" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -180,12 +201,6 @@
               <item name="project_form" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_form" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_form" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_form" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="basic_app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -248,7 +263,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19301033" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -259,7 +273,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Missing In Actions" order="9" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />

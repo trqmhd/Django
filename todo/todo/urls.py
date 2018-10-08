@@ -1,4 +1,4 @@
-"""project_authentication URL Configuration
+"""todo URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.1/topics/http/urls/
@@ -14,15 +14,8 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include
-from basic_app import views
-from django.conf.urls import url, include
+from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^$', views.index, name='index'),
-    url(r'^basic_app/', include('basic_app.urls')),
-    url(r'^logout/$', views.user_logout, name='logout'),
-    url(r'special/', views.special, name='special')
-
 ]
