@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a48a949-0b20-49f0-b6c4-681e6184422a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../project_authentication/basic_app/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_authentication/basic_app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_authentication/templates/basic_app/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_authentication/templates/basic_app/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_authentication/templates/basic_app/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_authentication/templates/basic_app/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/todo_list.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/todo_app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/todo_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project_authentication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/basic_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/basic_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/basic_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/basic_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/basic_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/basic_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/project_authentication/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/project_authentication/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/project_authentication/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/project_authentication/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_form/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_form/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project_form/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_form/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project_templates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_templates/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../second_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../second_project/.idea/workspace.xml" afterDir="false" />
@@ -124,7 +122,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/first_app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
+            <state relative-caret-position="627">
               <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
             </state>
           </provider>
@@ -135,7 +133,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_app/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -168,7 +166,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="300">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -178,11 +176,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/first_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+            <state relative-caret-position="420">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <marker date="1538385184455" expanded="true" signature="85:90" ph="..." />
                 <marker date="1538385184455" expanded="true" signature="235:240" ph="..." />
@@ -543,9 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/populate_first_app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -557,29 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1538425882414" expanded="true" signature="444:478" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-          <folding>
-            <marker date="1538385184455" expanded="true" signature="85:90" ph="..." />
-            <marker date="1538385184455" expanded="true" signature="235:240" ph="..." />
-            <marker date="1538385184455" expanded="true" signature="460:465" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -603,10 +575,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/first_app/index.html">
+    <entry file="file://$PROJECT_DIR$/first_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1538425882414" expanded="true" signature="444:478" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -616,6 +592,28 @@
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/first_app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <marker date="1538385184455" expanded="true" signature="85:90" ph="..." />
+            <marker date="1538385184455" expanded="true" signature="235:240" ph="..." />
+            <marker date="1538385184455" expanded="true" signature="460:465" ph="..." />
           </folding>
         </state>
       </provider>

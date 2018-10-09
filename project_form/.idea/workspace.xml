@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="344206b5-2c3d-4e44-9342-b64238e6f26a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../project_authentication/basic_app/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_authentication/templates/basic_app/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_authentication/templates/basic_app/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_authentication/templates/basic_app/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_authentication/templates/basic_app/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/todo_list.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/todo_app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/todo_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../first_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../first_project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project_authentication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/basic_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/basic_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/basic_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/basic_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/project_authentication/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/project_authentication/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/project_authentication/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/project_authentication/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project_templates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_templates/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../second_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../second_project/.idea/workspace.xml" afterDir="false" />
@@ -31,9 +31,10 @@
         <counts>
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -103,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic_app/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="255">
               <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
@@ -115,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="285">
               <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -169,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="712" />
@@ -262,7 +263,8 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="712" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19301033" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -331,7 +333,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic_app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="255">
           <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
@@ -341,7 +343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="285">
           <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />

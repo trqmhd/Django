@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6917b45-6572-4c5a-aeb0-a7d9dbffe2cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../project_authentication/basic_app/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_authentication/basic_app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_authentication/templates/basic_app/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_authentication/templates/basic_app/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_authentication/templates/basic_app/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project_authentication/templates/basic_app/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/todo_list.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/todo_app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_list/todo_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../first_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../first_project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project_authentication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/basic_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/basic_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/basic_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/basic_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/basic_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/basic_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/project_authentication/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/project_authentication/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_authentication/project_authentication/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/project_authentication/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_form/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_form/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project_form/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_form/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../second_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../second_project/.idea/workspace.xml" afterDir="false" />
@@ -188,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="712" />
@@ -260,7 +258,7 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="712" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="712" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1223193" />
