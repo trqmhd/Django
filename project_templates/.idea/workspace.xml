@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6917b45-6572-4c5a-aeb0-a7d9dbffe2cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/todo_list.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo_list/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo_list/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo_list/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo_list/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo_list/todo_app/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo_list/todo_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../first_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../first_project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project_authentication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project_form/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_form/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project_form/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_form/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../second_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../second_project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo_list/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../todo_list/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo_list/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../todo_list/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
