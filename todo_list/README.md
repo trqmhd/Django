@@ -4,7 +4,7 @@ Open terminal/cmd.
 
 Run the following commands:
 
-1.pip install django
+1. pip install django
 
 2. Go inside the project directory(todo_list)
 
