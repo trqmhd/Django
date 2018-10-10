@@ -1,7 +1,6 @@
 How to run the program:
 
-Install:
-1. Open terminal/cmd. 
+Open terminal/cmd. 
 
 Run the following commands:
 1.pip install django
