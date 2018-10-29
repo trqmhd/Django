@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/../project_templates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_templates/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../second_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../second_project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../todo_list/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../todo_list/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo_list/Untitled.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +19,7 @@
     <session id="-1900434837">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="2" />
@@ -161,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="712" />
@@ -254,8 +253,7 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="712" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="712" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19301033" />
       <window_info id="Structure" order="1" weight="0.25" />

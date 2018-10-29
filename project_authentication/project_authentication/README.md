@@ -12,4 +12,4 @@ Run the following commands:
 
 Then copy the server link and paste to your browser:
 
-
+It's simple.......easy-cozy.
