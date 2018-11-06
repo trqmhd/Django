@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% include 'stock_info/stock_base.html'%}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+
+
+<div class="container">
+
+     <div class="jumbotron">
+
+         <h3> Stock Name: </h3>
+
+            {% for object in object_list%}
+
+                {% include 'stock_info/snippets.html' %}
+
+
+                    <a href="{{ object.get_absolute_url }}" >
+                        {{object.symbol}}<br>
+
+
+                    </a>
+{%endfor%}
+    </div>
+    </div>
+
+</body>
+</html>

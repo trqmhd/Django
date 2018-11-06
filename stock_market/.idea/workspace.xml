@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3eea5d4e-be15-4eb0-8b98-28cf4ff8f5b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../project_authentication/basic_app/migrations/0003_remove_userprofileinfo_portfolio_site.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/stock_market.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pic/Tariq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_info/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_info/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_info/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_info/fake_stock_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_info/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_info/migrations/0002_auto_20181105_0328.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_info/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_info/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_info/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_info/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_info/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_market/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_market/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_market/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock_market/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/stock_info/snippets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/stock_info/stock_base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/stock_info/stock_detail_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/stock_info/stock_list_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user_info/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user_info/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user_info/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user_info/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_info/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_info/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_info/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_info/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_info/migrations/0002_auto_20181103_0925.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_info/migrations/0003_userprofileinfo_balance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_info/migrations/0004_auto_20181104_0201.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_info/migrations/0005_auto_20181105_1001.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_info/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_info/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_info/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_info/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_info/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_authentication/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_authentication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_authentication/basic_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/basic_app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_authentication/basic_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/basic_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_authentication/basic_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/basic_app/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_authentication/basic_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/basic_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project_authentication/project_authentication/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../project_authentication/project_authentication/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../second_project/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../second_project/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../second_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../second_project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../second_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../second_project/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../second_project/second_app/populate_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/../second_project/second_app/populate_users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo_list/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../todo_list/templates/home.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1257828206">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="25" />
+          <entry key="jpg" value="1" />
+          <entry key="py" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="25" />
+          <entry key="Image" value="1" />
+          <entry key="Python" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="1185" />
+          <entry key="py" value="3406" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1185" />
+          <entry key="Python" value="3406" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock_info/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#54#0" expanded="true" />
+                <marker date="1541421460122" expanded="true" signature="283:288" ph="..." />
+                <marker date="1541421460122" expanded="true" signature="678:1543" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/user_info/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="43" column="79" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/user_info/login.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/user_info/registration.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/user_info/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/stock_info/stock_list_view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/stock_info/stock_base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/stock_info/snippets.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/stock_info/stock_detail_view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock_market/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="e#636#668#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/user_info/index.html" />
+        <option value="$PROJECT_DIR$/stock_market/settings.py" />
+        <option value="$PROJECT_DIR$/stock_info/admin.py" />
+        <option value="$PROJECT_DIR$/user_info/forms.py" />
+        <option value="$PROJECT_DIR$/stock_info/fake_stock_data.py" />
+        <option value="$PROJECT_DIR$/user_info/tests.py" />
+        <option value="$PROJECT_DIR$/user_info/asdfasd.py" />
+        <option value="$PROJECT_DIR$/templates/stock_info/base.html" />
+        <option value="$PROJECT_DIR$/templates/stock_info/index.html" />
+        <option value="$PROJECT_DIR$/stock_info/urls.py" />
+        <option value="$PROJECT_DIR$/templates/stock_info/stock_view.html" />
+        <option value="$PROJECT_DIR$/user_info/models.py" />
+        <option value="$PROJECT_DIR$/stock_info/models.py" />
+        <option value="$PROJECT_DIR$/templates/stock_info/stock_detail_view.html" />
+        <option value="$PROJECT_DIR$/stock_info/views.py" />
+        <option value="$PROJECT_DIR$/stock_market/urls.py" />
+        <option value="$PROJECT_DIR$/templates/user_info/base.html" />
+        <option value="$PROJECT_DIR$/templates/stock_info/stock_index.html" />
+        <option value="$PROJECT_DIR$/templates/stock_info/snippets.html" />
+        <option value="$PROJECT_DIR$/templates/stock_info/stock_list_view.html" />
+        <option value="$PROJECT_DIR$/templates/stock_info/stock_base.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="712" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="stock_market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock_market" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock_market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock_market" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock_market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock_market" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="profile_pic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock_market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock_market" type="462c0819:PsiDirectoryNode" />
+              <item name="stock_info" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock_market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock_market" type="462c0819:PsiDirectoryNode" />
+              <item name="stock_info" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock_market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock_market" type="462c0819:PsiDirectoryNode" />
+              <item name="stock_market" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock_market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock_market" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock_market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock_market" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="stock_info" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock_market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock_market" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="user_info" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock_market" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock_market" type="462c0819:PsiDirectoryNode" />
+              <item name="user_info" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/stock_info" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.tests">
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stock_market" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_info" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_info/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stock_market" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_info" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_info/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.urls" />
+      <item itemvalue="Python.tests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tests" />
+        <item itemvalue="Python.urls" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22637014" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44723618" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32998326" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32998326" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22637014" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44723618" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32998326" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32998326" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/media/profile_pics/Tariq.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_info/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_info/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_info/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_info/fake_stock_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_info/asdfasd.py" />
+    <entry file="file://$PROJECT_DIR$/templates/stock_info/index.html" />
+    <entry file="file://$PROJECT_DIR$/templates/stock_info/base.html" />
+    <entry file="file://$PROJECT_DIR$/stock_info/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_info/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/stock_info/stock_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_market/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_info/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_info/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_info/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1541458061401" expanded="true" signature="887:896" ph="..." />
+            <marker date="1541458061401" expanded="true" signature="887:931" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_info/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_info/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_info/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+            <marker date="1541421460122" expanded="true" signature="283:288" ph="..." />
+            <marker date="1541421460122" expanded="true" signature="678:1543" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_info/registration.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock_market/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#636#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/stock_info/stock_detail_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/stock_info/stock_index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_info/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_info/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/stock_info/snippets.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/stock_info/stock_list_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/stock_info/stock_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_info/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="43" column="79" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -22,17 +22,17 @@ import pandas as pd
 
 
 # Define the instruments to download. We would like to see Apple, Microsoft and the S&P500 index.
-tickers = ['AAPL', 'MSFT', '^GSPC']
+tickers = ['AAPL']
 
 # We would like all available data from 01/01/2000 until 12/31/2016.
-start_date = '2010-01-01'
-end_date = '2016-12-31'
+start_date = '2018-10-29'
+end_date = '2018-10-31'
 
 # User pandas_reader.data.DataReader to load the desired data. As simple as that.
-panel_data = data.DataReader('INPX', 'yahoo', start_date, end_date)
+panel_data = data.DataReader('inpx', 'yahoo', start_date, end_date)
 
 
-print(panel_data.head(9))
+print(panel_data.head(10))
 
 
 
@@ -56,6 +56,8 @@ close = close.fillna(method='ffill')
 
 
 print(all_weekdays)
+
+
 
 # DatetimeIndex(['2010-01-01', '2010-01-04', '2010-01-05', '2010-01-06',
 #               '2010-01-07', '2010-01-08', '2010-01-11', '2010-01-12',

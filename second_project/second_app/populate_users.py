@@ -1,5 +1,5 @@
 import os
-os.environ.setdefault("DJANGO_SEETINGS_MODULE", 'second_project.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", 'second_project.settings')
 
 
 
@@ -25,7 +25,7 @@ def populate (N):
 
 
 
-if __name__ == ' __main__':
+if __name__ == '__main__':
     print("populating data")
     populate(25)
     print("Done")
